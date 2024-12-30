@@ -1,0 +1,129 @@
+body{
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+box-shadow: 1px 2px 6px 2px rgb(209, 199, 199);
+margin: 0 auto;
+max-width:700px;
+margin-top: 50px;
+}
+
+.submit{
+
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+  
+
+
+}
+form{
+    
+   
+     display: flex;
+     justify-content: space-evenly;
+     max-width: 800px; 
+     padding:20px;
+     
+     
+
+}
+
+input{
+  
+    border:none;
+    outline: none;
+    font-size: 18px;
+    width: 260px;
+
+}
+button{
+    margin-left: 6px;
+    width: 150px;
+    border-radius: 4px;
+    height: 50px;
+    background-color: #007bff;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.degree{
+
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.description{
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 20px;
+   
+}
+.details{
+
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top:20px;
+    padding-bottom:30px;
+  
+
+    
+}
+
+.fr-section,
+.sc-section,
+.th-section{
+    
+    background-color: rgb(245, 243, 243);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon img{
+    width: 135px;
+    text-align: center;
+    /* border-radius:60px; */
+    
+   
+}
+
+
+
+
+/* @media (max-width: 600px) {
+    input, button {
+        width: 100%;
+    }
+    .container {
+        margin-top: 20px;
+    }
+} */
